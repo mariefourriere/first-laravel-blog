@@ -19,7 +19,8 @@
     @foreach($posts as $post)
     <div class="row">
         <div>
-            <p><strong>{{$post['title']}}</strong><br><a href="{{ route('admin.edit', ['id'=> array_search($post, $posts)]) }}">Edit</a></p>
+            <p><strong>{{$post->title}}</strong><br><a href="{{ route('admin.edit', ['id'=> $post->id]) }}">Edit</a></p>
+            <p><a href="{{ route('admin.delete', ['id'=> $post->id]) }}">Delete</a></p>
         </div>
     </div>
     @endforeach

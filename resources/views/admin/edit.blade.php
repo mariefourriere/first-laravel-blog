@@ -12,7 +12,7 @@
                     type="text" 
                     placeholder="Text input" 
                     name="title"
-                    value="{{ $post['title']}}">
+                    value="{{ $post->title}}">
 
                     <div class="field">
                         <label class="label" for='content'>Content</label>
@@ -21,7 +21,7 @@
                             type="text" 
                             placeholder="Text input"
                             name='content'
-                            value= "{{ $post['content']}}">
+                            value= "{{ $post->content}}">
                         </div>
 
                     </div>

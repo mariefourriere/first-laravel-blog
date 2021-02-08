@@ -47,7 +47,10 @@ Route::group(['prefix' => 'admin'], function(){
         'uses' => 'App\Http\Controllers\PostController@getAdminEdit',
         'as' => 'admin.edit'
     ]);
-
+    Route::get('delete/{id}',[
+        'uses' => 'App\Http\Controllers\PostController@getAdminDelete',
+        'as' => 'admin.delete'
+    ]);
   
 
     Route::post('edit', [
