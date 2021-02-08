@@ -1,0 +1,28 @@
+.quote {
+    font: 400 72px "Arizonia", Helvetica, sans-serif;
+    color: #F4645F;
+    text-align: center;
+}
+
+.post-title {
+    color: #F4645F;
+    text-align: left;
+}
+
+h1{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+section{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.redError{
+    color:rgb(165, 4, 4);
+    background-color: rgb(236, 193, 193);
+    border-radius: 10px;
+    padding-left: 5px;
+}
